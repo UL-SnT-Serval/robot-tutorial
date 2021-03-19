@@ -14,7 +14,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/':
-            self.path = 'login.html'
+            self.path = 'login-' + DIRECTORY + '.html'
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
 class DemoServer:

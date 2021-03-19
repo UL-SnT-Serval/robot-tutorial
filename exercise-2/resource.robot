@@ -12,9 +12,7 @@ ${SERVER}           localhost:7272
 ${BROWSER}          Chrome
 ${DELAY}            0
 
-${LOGIN URL}        http://${SERVER}/login.html
-${WELCOME URL}      http://${SERVER}/welcome.html
-${ERROR URL}        http://${SERVER}/error.html
+${LOGIN URL}        http://${SERVER}
 
 ${USERNAME FIELD}   xpath:/html/body/div/form/table/tbody/tr[1]/td[2]/input
 ${PASSWORD FIELD}   xpath:/html/body/div/form/table/tbody/tr[2]/td[2]/input
@@ -46,5 +44,4 @@ Submit Credentials
     Click Button    ${LOGIN FIELD}
 
 Welcome Page Should Be Open
-    Location Should Be    ${WELCOME URL}
     Title Should Be    Welcome Page
