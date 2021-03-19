@@ -1,0 +1,6 @@
+# Robot Framework Reporting
+*/output.xml
+*/report.html
+*/log.html
+*/selenium-screenshot-*.png
+
