@@ -1,14 +1,18 @@
 # Robot Framework Tutorial
 
-This repository contains a tutorial to guide you through the first steps of the amazing world of robot framwork. Before starting make sure you have the prerequisite installed in order to be able to move on with the examples.
+This repository contains a tutorial to guide you through the first steps of the amazing world of Robot Framework. Before starting make sure you have the prerequisite installed in order to be able to move on with the examples.
 
-## Prequisites
+## Perquisites
 
 * Python 3.x.x
 * pip
 * (optional) virtualenv
 
-While virtualenv is not a requirement, we recommand to isolate each project in its own virtual environment in order to make sure the proper dependencies are installed correctly and avoid any conflict.
+While virtualenv is not a requirement, we recommend to isolate each project in its own virtual environment in order to make sure the proper dependencies are installed correctly and avoid any conflict.
+
+## Recommended IDE
+
+To follow this tutorial, we recommend the [VS Code](https://code.visualstudio.com/download) with the [Robot Framework Intellisense](https://github.com/tomi/vscode-rf-language-server) plugin that offers support for the Robot Framework language such as syntax highlighting and reference finding.
 
 ## Install Robot framework
 
@@ -54,7 +58,7 @@ To install the drivers follow the following steps:
 
 1. Download the driver that corresponds to the version of the browser you have installed on your machine.
 
-2. Unzip the file to a folder of your choice. We recommand using the `~/.webderiver/` folder for all the drivers.
+2. Unzip the file to a folder of your choice. We recommend using the `~/.webderiver/` folder for all the drivers.
    
 3. To allow Robot Framework to use the WebDriver (or more specifically the Selenium Library), make sure to add the folder where you extracted the webdriver (e.g. `~/.webderiver/`) to the `PATH` environment variable.
 
