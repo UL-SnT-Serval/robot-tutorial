@@ -18,3 +18,6 @@ For each user story, you are asked to write one or more tests in order to fully 
 * Robot Framework should be install on your machine as well as the Selenium2Library.
 * An internet connection to access the remote website.
 
+# Create the tests
+
+Open the tests.robot file which contains one test and in comment some user stories. Write tests to best cover the user stories. The first test for the first user story is already written. Again, remember that there is not one unique solution but many, so let your imagination go.
