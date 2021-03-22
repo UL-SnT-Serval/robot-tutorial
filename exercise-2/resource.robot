@@ -52,3 +52,6 @@ Submit Credentials
 
 Welcome Page Should Be Open
     Title Should Be    Welcome Page
+
+Error Page Should Be Open
+    Title Should Be    Error Page
