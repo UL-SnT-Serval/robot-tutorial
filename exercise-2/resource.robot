@@ -1,4 +1,3 @@
-
 *** Settings ***
 Documentation     A resource file with reusable keywords and variables.
 ...
@@ -19,6 +18,14 @@ ${PASSWORD FIELD}   xpath:/html/body/div/form/table/tbody/tr[2]/td[2]/input
 ${LOGIN FIELD}      xpath:/html/body/div/form/table/tbody/tr[3]/td[2]/input
 
 *** Keywords ***
+Browser is opened to login page
+    Open browser to login page
+
+User "${username}" logs in with password "${password}"
+    Input username    ${username}
+    Input password    ${password}
+    Submit credentials
+    
 Open Browser To Login Page
     Open Browser    ${LOGIN URL}    ${BROWSER}
     Maximize Browser Window
