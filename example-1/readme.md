@@ -1,8 +1,8 @@
-# Exercise 1
+# Example 1
 
 ## Goal
 
-The goal of this first exercise is to get familiarized with the main building blocks of Robot Framework and to launch our first script.
+The goal of this first example is to get familiarized with the main building blocks of Robot Framework and to launch our first script.
 
 ## Test data sections
 
