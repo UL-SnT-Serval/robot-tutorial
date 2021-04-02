@@ -73,6 +73,10 @@ In this series we will use the [Selenium2Library](https://robotframework.org/Sel
 pip install selenium robotframework-selenium2library webdrivermanager
 ```
 
+## Contact
+
+Should you have any questions or problem regarding this tutorial, you can open an issue on the repo or directly contact me at renaud.rwemalika@uni.lu
+
 ## References
 
 [1] https://www.w3.org/TR/webdriver1/
