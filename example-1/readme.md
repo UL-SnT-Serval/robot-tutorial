@@ -28,7 +28,7 @@ robot open_uni_lu_page.robot
 Alternatively, to run all the test script from a folder, that will be seen as a suite, navigate to the directory where the folder resides and launch it robot with the folder as an argument for the `robot` command. In the case of exercise-1, this would translate to the following command.
 
 ```
-robot exercise-1
+robot example-1
 ```
 
 The reports are located in the folder from which the command was executed. After executing the `robot` command, go and inspect the content of the report.
