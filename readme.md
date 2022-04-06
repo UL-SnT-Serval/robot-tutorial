@@ -50,8 +50,8 @@ WebDriver is a remote control interface that enables introspection and control o
 
 All the major browsers have a wbdriver for their platform which allows there automation. And can be found on their pages, e.g.:
 
-* [Chrome](https://sites.google.com/a/chromium.org/chromedriver/home)
-* [FireFox](https://github.com/mozilla/geckodriver/releases/tag/v0.29.0)
+* [Chrome](https://sites.google.com/chromium.org/driver/)
+* [FireFox](https://github.com/mozilla/geckodriver/releases)
 * [Edge and Internet Explorer](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 To install the drivers follow the following steps:
